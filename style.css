@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.cointainer__imagen {
+    overflow-x: 40px;
+    overflow-y: 40px;
+    width: 120px;
+    height: 80px;
+}
+
+.presentacion__contenido {
+    padding: 5% 15%;
+    background-color: rgb(255, 255, 255);
+}
+
+.presentacion__contenido__input {
+    display: flex;
+}
+
+.text-input {
+    width: 650px;
+    height: 400px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    color: #0A3871;
+    border: 0;
+    outline: none;
+}
+
+.text-input-salida {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 112px;
+    margin-bottom: -10px;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    color: gray;
+    border: 0;
+    outline: none;
+    background-image: url(/img/1.png);
+    background-size: cover;
+}
+
+.text-input-salida.activado {
+    background-image: url(/img/b.jpg);
+
+}
+
+.label {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.textInput {
+    margin-left: 570px;
+}
+
+.presentacion__contenido__btn {
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    color: darkblue;
+}
+
+.btn {
+    width: 300px;
+    height: 60px;
+    margin-right: 50px;
+    border-radius: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    color: #f6f6f6;
+    background-color: #0A3871;
+}
+
+.btn1 {
+    width: 300px;
+    height: 60px;
+    margin-right: 30px;
+    border-radius: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    color: darkblue;
+    background-color: #D8DFE8;
+
+}
+
+.btn2 {
+    display: flex;
+    width: 300px;
+    height: 60px;
+    border-radius: 20px;
+    margin-left: 90px;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    color: darkblue;
+}
+
+
+@media (max-width: 800px) {
+
+
+    .presentacion__contenido {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .presentacion__contenido__input {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text-input {
+        width: 688px;
+        height: 288px;
+        margin-bottom: 50px;
+    }
+
+    .text-input-salida {
+        width: 688px;
+        height: 288px;
+        margin: 0px;
+    }
+
+    .label {
+        margin-left: 10px;
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+
+    .textInput {
+        margin-left: 225px;
+    }
+
+    .presentacion__contenido__btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 332px;
+        height: 67px;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+
+    .btn1 {
+        width: 332px;
+        height: 67px;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+
+    .btn2 {
+        width: 332px;
+        height: 67px;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width:450px) {
+
+    .cointainer__imagen {
+        overflow-x: 16px;
+        overflow-y: 23px;
+        width: 30px;
+        height: 48px;
+    }
+
+    .presentacion__contenido {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .text-input {
+        width: 350px;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+
+    .text-input-salida {
+        width: 350px;
+        height: 500px;
+        margin: 0px;
+    }
+
+    .label {
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+
+    .textInput {
+        margin-left: 80px;
+    }
+
+    .presentacion__contenido__btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 332px;
+        height: 67px;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+
+    .btn1 {
+        width: 332px;
+        height: 67px;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+
+    .btn2 {
+        width: 332px;
+        height: 67px;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+
+}
